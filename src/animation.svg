@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="350px" height="350px" viewBox="0 0 100 100">
+    <defs>
+        <radialGradient id="grad1" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+            <stop offset="0%" style="stop-color:rgb(248,188,58); stop-opacity:1" />
+            <stop offset="100%" style="stop-color:rgba(0, 0, 0, 0.8); stop-opacity:1" />
+        </radialGradient>
+    </defs>
+    <g class="animar-logo">
+        <circle cx="50" cy="50" r="45" fill="url(#grad1)" />
+        <circle cx="50" cy="50" r="5" fill="white" />
+    </g>
+    <text x="50" y="40" fill="black" font-family="Fira Sans" font-size="10" font-weight="bold" text-anchor="middle">
+        Maldita Nerea
+    </text>
+</svg>

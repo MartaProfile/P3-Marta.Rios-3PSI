@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Marta Rios Garrido">
+    <meta name="description" content="Web Maldita Nerea">
+    <link rel="stylesheet" href="estilos/normalize.css" type="text/css">
+    <link rel="stylesheet" href="estilos/styles.css" type="text/css">
+    <link rel="preload" href="img/index2.webp" as="image">
+    <link rel="shortcut icon" href="img/icons8-turtle-64-blanco.webp" type="image/x-icon">
+    <script type="module" src="scripts/app.js" defer></script>
+    <title>Web Maldita Nerea</title>
+</head>
+
+<body>
+
+<!-- CABECERA -->
+
+<include src="componentes/header.html"></include>
+
+<!-- CUERPO -->
+
+    <main class="contenedor">
+
+        <div class="titulo-index">
+            <h1 class="titulo-index_clip">NUEVO DISCO</h1>
+        </div>
+
+        <div class="imagen-fondo">
+            <figure class="video">
+                <div id="video-container">
+                    <img id="video-thumbnail" src="img/video-youtube.webp" alt="Play Video" width="560" height="315">
+                </div>
+            </figure>
+
+            <div class="imagen-disco">
+                <img class="imagen-disco_nuevo" 
+                     width="400" height="400"
+                     src="img/maldita-nerea.8-desktop.webp" 
+                     srcset="img/maldita-nerea.8-movil.webp 200w,
+                             img/maldita-nerea.8-desktop.webp 400w"
+                     sizes="(max-width: 480px) 60vw,
+                            400px" 
+                     alt="Nuevo disco" loading="lazy">
+            </div>
+        </div>
+ 
+    </main>
+
+
+<!-- PIE DE PÁGINA -->
+
+<include src="componentes/footer.html"></include>
+
+</body>
+</html>
